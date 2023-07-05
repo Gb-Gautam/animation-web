@@ -12,6 +12,7 @@
   background-size: cover;
   padding: 10px 10%;
   overflow: hidden;
+  position: relative;
 }
 nav{
   padding: 10px 0;
@@ -44,4 +45,30 @@ nav ul li a{
   color: azure;
   border-radius: 20px;
   border-top-right-radius: 0px;
+  transition: 0.5s;
+}
+.content{
+  margin: 150px -40px;
+}
+.content h2{
+  font-size: 30px;
+  margin-bottom: 14px;
+}
+.content span{
+  color: red;
+}
+.content p{
+  margin: 20px 0px;
+}
+.content .btn{
+  margin-top: 15px;
+}
+.btn:hover{
+  border-top-right-radius: 20px;
+}
+.img{
+  width: 400px;
+  position: absolute;
+  bottom: 0;
+  right: 20%;
 }
